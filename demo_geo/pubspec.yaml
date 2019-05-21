@@ -1,0 +1,35 @@
+name: demo_geo
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  intl: ^0.15.7
+  cloud_firestore: ^0.9.5+2
+  geolocator: ^3.0.1
+  permission_handler: ^3.0.0
+  rxdart: 0.21.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/
+  - assets/ic/tab/
+  - assets/ic/menu/
+  - assets/banner/
+  - assets/topic/
